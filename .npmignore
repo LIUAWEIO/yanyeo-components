@@ -1,0 +1,17 @@
+# 不发布的文件和目录
+node_modules/
+*.log
+*.lock
+*.ts
+*.map
+*.json
+.DS_Store
+.idea/
+.vscode/
+__tests__/
+src/
+
+# 保留以下文件
+!dist/
+!package.json
+!README.md

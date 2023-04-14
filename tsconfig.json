@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "strict": true,
+    "noImplicitAny": false,
+    "types": ["vite/client", "@vue/runtime-core"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue", "examples/**/*.ts", "examples/**/*.vue", "vue-shims.d.ts"],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
